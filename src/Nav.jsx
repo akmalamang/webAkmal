@@ -29,7 +29,7 @@ export const Nav = () => {
         {' '}
         {/* awal gambar dan nama */}{' '}
         <div className="flex items-center gap-2 my-2">
-          <img src="./public/img/gestures 1.png" alt="" className="w-8 h-8" />
+          <img src="/img/gestures 1.png" alt="" className="w-8 h-8" />
           <h1 className="text-2xl"> Akmal </h1>{' '}
         </div>{' '}
         {/* akhir dari gambar dan nama */}{' '}
@@ -62,12 +62,12 @@ export const Nav = () => {
           </ul>{' '}
           {/* ikon */}{' '}
           <div className="hidden md:flex gap-2 md:gap-4">
-            <img src="./public/img/globe.png" alt="" className="object-fill hover:cursor-pointer w-6 h-6 lg:w-8 lg:h-8" />
-            <img src="./public/img/linkind.png" alt="" className="object-fill hover:cursor-pointer w-6 h-6 lg:w-8 lg:h-8" />
+            <img src="/img/globe.png" alt="" className="object-fill hover:cursor-pointer w-6 h-6 lg:w-8 lg:h-8" />
+            <img src="/img/linkind.png" alt="" className="object-fill hover:cursor-pointer w-6 h-6 lg:w-8 lg:h-8" />
           </div>{' '}
         </div>{' '}
         <div className="flex sm:hidden justify-end items-center">
-          <img src="./public/img/humberger.png" alt="" className="object-fill hover:cursor-pointer w-8 h-8" onClick={toggleMenu} />
+          <img src="/img/humberger.png" alt="" className="object-fill hover:cursor-pointer w-8 h-8" onClick={toggleMenu} />
         </div>{' '}
         {/* akhir ikon */}{' '}
       </nav>{' '}

@@ -61,9 +61,9 @@ export const SecTheree = () => {
 
               <h3 className="text-[#FFFFFF] text-[24px] max-[500px]:text-[20px]"> Store tshirt Website </h3>
 
-              <img src="./public/img/mata.png" alt="" className="absolute right-4 top-8" />
+              <img src="/img/mata.png" alt="" className="absolute right-4 top-8" />
             </div>
-            <img src="./public/img/port-1.png" alt="" />
+            <img src="/img/port-1.png" alt="" />
           </div>
           <div ref={sec2Ref} className="relative lg:w-[500px] lg:h-[400px]  rounded-lg overflow-hidden max-[631px]:mb-4">
             <div className="bg-[#0B2447] p-4">
@@ -71,9 +71,9 @@ export const SecTheree = () => {
 
               <h3 className="text-[#FFFFFF] text-[24px] max-[500px]:text-[20px]"> Slider Hero Mobile Legends </h3>
 
-              <img src="./public/img/mata.png" alt="" className="absolute right-4 top-8" />
+              <img src="/img/mata.png" alt="" className="absolute right-4 top-8" />
             </div>
-            <img src="./public/img/port-2.png" alt="" />
+            <img src="/img/port-2.png" alt="" />
           </div>
           <div ref={sec3Ref} className="relative lg:w-[500px] lg:h-[400px]  rounded-lg overflow-hidden max-[631px]:mb-4">
             <div className="bg-[#0B2447] p-4">
@@ -81,9 +81,9 @@ export const SecTheree = () => {
 
               <h3 className="text-[#FFFFFF] text-[24px] max-[500px]:text-[20px]"> Company Website </h3>
 
-              <img src="./public/img/mata.png" alt="" className="absolute right-4 top-8" />
+              <img src="/img/mata.png" alt="" className="absolute right-4 top-8" />
             </div>
-            <img src="./public/img/port-3.png" alt="" />
+            <img src="/img/port-3.png" alt="" />
           </div>
           <div ref={sec4Ref} className="relative lg:w-[500px] lg:h-[400px]  rounded-lg overflow-hidden max-[631px]:mb-4">
             <div className="bg-[#0B2447] p-4">
@@ -91,9 +91,9 @@ export const SecTheree = () => {
 
               <h3 className="text-[#FFFFFF] text-[24px] max-[500px]:text-[20px]"> FilFlix Website </h3>
 
-              <img src="./public/img/mata.png" alt="" className="absolute right-4 top-8" />
+              <img src="/img/mata.png" alt="" className="absolute right-4 top-8" />
             </div>
-            <img src="./public/img/port-4.png" alt="" />
+            <img src="/img/port-4.png" alt="" />
           </div>
         </div>
       </section>

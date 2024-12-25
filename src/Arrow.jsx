@@ -29,7 +29,7 @@ export const Arrow = () => {
   return (
     showArrow && (
       <div onClick={scrollTop}>
-        <img src="./public/img/up-arrow.png" alt="" className="w-[40px] h-[40px] fixed right-4 z-50 bottom-4 animate-bounce hover:cursor-pointer" />
+        <img src="/img/up-arrow.png" alt="" className="w-[40px] h-[40px] fixed right-4 z-50 bottom-4 animate-bounce hover:cursor-pointer" />
       </div>
     )
   );

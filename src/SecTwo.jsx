@@ -62,29 +62,29 @@ export const SecTwo = () => {
       <div ref={sec2Ref} className="space-y-2">
         {/* UI/UX Design */}{' '}
         <div className="flex items-center gap-4 p-4 rounded-lg hover:bg-[#19376D]">
-          <img src="./public/img/ui ux.png" alt="UI/UX Design" className="max-[600px]:w-20 max-[600px]:h-20 rounded-md object-cover" />
+          <img src="/img/ui ux.png" alt="UI/UX Design" className="max-[600px]:w-20 max-[600px]:h-20 rounded-md object-cover" />
           <div className="flex-grow">
             <h3 className="max-[600px]:text-[20px] text-2xl font-bold text-[#FFFFFF]"> UI / UX Design </h3> <p className="text-sm text-[#B3B3B3]"> 10 + Project </p>{' '}
           </div>{' '}
-          <img src="./public/img/Mask group.png" alt="" className="max-[600px]:w-5" />
+          <img src="/img/Mask group.png" alt="" className="max-[600px]:w-5" />
         </div>
         <div className="w-[full] bg-[#B3B3B3] h-[2px] ml-4"></div>
         {/* Front End Develop */}{' '}
         <div className="flex items-center gap-4  p-4 rounded-lg hover:bg-[#19376D]">
-          <img src="./public/img/gambar-2 1.png" alt="Front End Develop" className="max-[600px]:w-20 max-[600px]:h-20 rounded-md object-cover" />
+          <img src="/img/gambar-2 1.png" alt="Front End Develop" className="max-[600px]:w-20 max-[600px]:h-20 rounded-md object-cover" />
           <div className="flex-grow">
             <h3 className="max-[600px]:text-[20px] text-2xl font-bold text-[#FFFFFF]"> Front End Develop </h3> <p className="text-sm text-[#B3B3B3]"> 12 + Project </p>{' '}
           </div>{' '}
-          <img src="./public/img/Mask group.png" alt="" className="max-[600px]:w-5" />
+          <img src="/img/Mask group.png" alt="" className="max-[600px]:w-5" />
         </div>
         <div className="w-[full] bg-[#B3B3B3] h-[2px] ml-4"></div>
         {/* Mobile App Develop */}{' '}
         <div className="flex items-center gap-4  p-4 rounded-lg hover:bg-[#19376D]">
-          <img src="./public/img/gamabr-3 1.png" alt="Mobile App Develop" className="max-[600px]:w-20 max-[600px]:h-20 rounded-md object-cover" />
+          <img src="/img/gamabr-3 1.png" alt="Mobile App Develop" className="max-[600px]:w-20 max-[600px]:h-20 rounded-md object-cover" />
           <div className="flex-grow">
             <h3 className="max-[600px]:text-[20px] text-2xl font-bold text-[#FFFFFF]"> Mobile App Develop </h3> <p className="text-sm text-[#B3B3B3]"> 5 + Project </p>{' '}
           </div>{' '}
-          <img src="./public/img/Mask group.png" alt="" className="max-[600px]:w-5" />
+          <img src="/img/Mask group.png" alt="" className="max-[600px]:w-5" />
         </div>{' '}
         <div className="w-[full] bg-[#B3B3B3] h-[2px] ml-4"></div>
       </div>{' '}
