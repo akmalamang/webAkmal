@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Nav } from './nav';
+import { Nav } from './Nav';
 import { Sec } from './Sec';
 import { Kotak } from './Kotak';
 import { SecTwo } from './SecTwo';
