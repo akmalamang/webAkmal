@@ -76,7 +76,7 @@ export const SecFour = () => {
         <div ref={sec3Top} className="relative">
           <div className="w-[324px] h-[339px]  md:w-[384px] md:h-[396px] bg-[#1B58AD] rounded-full absolute top-10 right-[50%] left-[50%] -translate-x-[50%] z-0"></div>
           <img
-            src={{ profilAkmal }} // Ganti dengan gambar profil yang sesuai
+            src={profilAkmal} // Ganti dengan gambar profil yang sesuai
             alt="Profile"
             className="relative z-10 object-cover w-[257px] h-[387px] sm:w-[277px] sm:h-[422px]"
           />
