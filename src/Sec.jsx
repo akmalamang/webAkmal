@@ -1,4 +1,8 @@
 import React, { useEffect, useRef } from 'react';
+import tweet from './assets/tweet.png';
+import intagram from './assets/ig.png';
+import facebook from './assets/facebook.png';
+import akmal from './assets/new-edit-akmal 1.png';
 
 export const Sec = () => {
   const sec1Ref = useRef(null);
@@ -51,13 +55,13 @@ export const Sec = () => {
         <p className="mt-6 text-md sm:text-lg text-[#B3B3B3] sm:w-[422px]">I am a freelance FrontEnd Web Developer, currently looking for work in the field of Web Development</p>
         <div className="flex gap-6 mt-8">
           <a href="">
-            <img src="/img/tweet.png" alt="" className="w-[30px] h-[30px]" />
+            <img src={tweet} alt="" className="w-[30px] h-[30px]" />
           </a>
           <a href="">
-            <img src="/img/ig.png" alt="" className="w-[30px] h-[30px]" />
+            <img src={intagram} alt="" className="w-[30px] h-[30px]" />
           </a>
           <a href="">
-            <img src="/img/facebook.png" alt="" className="w-[30px] h-[30px]" />
+            <img src={facebook} alt="" className="w-[30px] h-[30px]" />
           </a>
         </div>
       </section>
@@ -65,7 +69,7 @@ export const Sec = () => {
       {/* Section 2 */}
       <section ref={sec2Ref} className="sec-2 sm:mr-[50px] order-1 md:order-2 opacity-0 transition-opacity duration-500">
         <div className="w-60 h-60 sm:w-[300px] sm:h-[300px] lg:w-[483px] lg:h-[462px] rounded-full  mx-auto  md:mx-0 bg-[#19376D] relative">
-          <img src="/public/img/new-edit-akmal 1.png" alt="" className=" object-cover object-center sm:mr-[100px] p-4 absolute bottom-2" />
+          <img src={akmal} alt="" className=" object-cover object-center sm:mr-[100px] p-4 absolute bottom-2" />
         </div>
       </section>
     </div>

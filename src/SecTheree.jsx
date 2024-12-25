@@ -1,4 +1,9 @@
 import React, { useRef, useEffect } from 'react';
+import mata from './assets/mata.png';
+import port1 from './assets/port-1.png';
+import port2 from './assets/port-2.png';
+import port3 from './assets/port-3.png';
+import port4 from './assets/port-4.png';
 
 export const SecTheree = () => {
   const sec1Ref = useRef(null);
@@ -61,9 +66,9 @@ export const SecTheree = () => {
 
               <h3 className="text-[#FFFFFF] text-[24px] max-[500px]:text-[20px]"> Store tshirt Website </h3>
 
-              <img src="/img/mata.png" alt="" className="absolute right-4 top-8" />
+              <img src={mata} alt="" className="absolute right-4 top-8" />
             </div>
-            <img src="/img/port-1.png" alt="" />
+            <img src={port1} alt="" />
           </div>
           <div ref={sec2Ref} className="relative lg:w-[500px] lg:h-[400px]  rounded-lg overflow-hidden max-[631px]:mb-4">
             <div className="bg-[#0B2447] p-4">
@@ -71,9 +76,9 @@ export const SecTheree = () => {
 
               <h3 className="text-[#FFFFFF] text-[24px] max-[500px]:text-[20px]"> Slider Hero Mobile Legends </h3>
 
-              <img src="/img/mata.png" alt="" className="absolute right-4 top-8" />
+              <img src={mata} alt="" className="absolute right-4 top-8" />
             </div>
-            <img src="/img/port-2.png" alt="" />
+            <img src={port2} alt="" />
           </div>
           <div ref={sec3Ref} className="relative lg:w-[500px] lg:h-[400px]  rounded-lg overflow-hidden max-[631px]:mb-4">
             <div className="bg-[#0B2447] p-4">
@@ -81,9 +86,9 @@ export const SecTheree = () => {
 
               <h3 className="text-[#FFFFFF] text-[24px] max-[500px]:text-[20px]"> Company Website </h3>
 
-              <img src="/img/mata.png" alt="" className="absolute right-4 top-8" />
+              <img src={mata} alt="" className="absolute right-4 top-8" />
             </div>
-            <img src="/img/port-3.png" alt="" />
+            <img src={port3} alt="" />
           </div>
           <div ref={sec4Ref} className="relative lg:w-[500px] lg:h-[400px]  rounded-lg overflow-hidden max-[631px]:mb-4">
             <div className="bg-[#0B2447] p-4">
@@ -91,9 +96,9 @@ export const SecTheree = () => {
 
               <h3 className="text-[#FFFFFF] text-[24px] max-[500px]:text-[20px]"> FilFlix Website </h3>
 
-              <img src="/img/mata.png" alt="" className="absolute right-4 top-8" />
+              <img src={mata} alt="" className="absolute right-4 top-8" />
             </div>
-            <img src="/img/port-4.png" alt="" />
+            <img src={port4} alt="" />
           </div>
         </div>
       </section>

@@ -1,4 +1,7 @@
 import React, { useRef, useEffect } from 'react';
+import iWeb from './assets/i-web.png';
+import frontWeb from './assets/i-frontWeb.png';
+import mobileDev from './assets/i-mobileDev.png';
 
 export const SecKotakThree = () => {
   const sec1Ref = useRef(null);
@@ -45,17 +48,17 @@ export const SecKotakThree = () => {
     <div className="max-[]:">
       <section className="grid grid-cols-1 sm:grid-cols-3 max-[1024px]:gap-4 justify-items-center max-[1008px]:static max-[1008px]:mb-[50px] relative z-30 top-20">
         <div ref={sec1Ref} className="flex flex-col gap-4 text-[#ffffff] bg-[#19376D] lg:w-[369px] lg:h-[409px] md:w-[269px] md:h-[309px]  shadow-md shadow-[#A5D7E8]">
-          <img src="/img/i-web.png" alt="" className="w-[45px] h-[45px] ml-5 mt-5" />
+          <img src={iWeb} alt="" className="w-[45px] h-[45px] ml-5 mt-5" />
           <h2 className="font-bold ml-5 text-[24px]">UI/UX Design</h2>
           <p className="lg:w-[200px] text-[#DBDBDB] ml-5 text-[17px] mb-4 min-[678px]:mb-0 min-[678px]:text-[20px]">Below are some who have collaborated with me</p>
         </div>
         <div ref={sec3Top} className="flex flex-col gap-4 text-[#ffffff] bg-[#19376D] lg:w-[369px] lg:h-[409px] md:w-[269px] md:h-[309px]  shadow-md shadow-[#A5D7E8]">
-          <img src="/img/i-web.png" alt="" className="w-[45px] h-[45px] ml-5 mt-5" />
+          <img src={frontWeb} alt="" className="w-[45px] h-[45px] ml-5 mt-5" />
           <h2 className="font-bold  ml-5 text-[24px]">Front End Dev</h2>
           <p className="lg:w-[280px] text-[#DBDBDB] ml-5 text-[17px] mb-4 min-[678px]:mb-0 min-[678px]:text-[20px]">Creating responsive, beautiful, and accessible web experiences.</p>
         </div>
         <div ref={sec2Ref} className="flex flex-col gap-4 text-[#ffffff] bg-[#19376D] lg:w-[369px] lg:h-[409px] md:w-[269px] md:h-[309px]  shadow-md shadow-[#A5D7E8] ">
-          <img src="/img/i-web.png" alt="" className="w-[45px] h-[45px] ml-5 mt-5" />
+          <img src={mobileDev} alt="" className="w-[45px] h-[45px] ml-5 mt-5" />
           <h2 className="font-bold  ml-5 text-[24px]">Mobile dev</h2>
           <p className="lg:w-[300px] text-[#DBDBDB] ml-5 text-[17px] mb-4 min-[678px]:mb-0 min-[678px]:text-[20px]">From idea to app store, delivering mobile solutions that make a difference.</p>
         </div>

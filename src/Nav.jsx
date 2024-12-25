@@ -1,4 +1,8 @@
 import React, { useEffect, useState } from 'react';
+import gestures from './assets/gestures 1.png';
+import globe from './assets/globe.png';
+import linkidin from './assets/linkind.png';
+import humberger from './assets/humberger.png';
 
 export const Nav = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -29,7 +33,7 @@ export const Nav = () => {
         {' '}
         {/* awal gambar dan nama */}{' '}
         <div className="flex items-center gap-2 my-2">
-          <img src="/img/gestures 1.png" alt="" className="w-8 h-8" />
+          <img src={gestures} alt="" className="w-8 h-8" />
           <h1 className="text-2xl"> Akmal </h1>{' '}
         </div>{' '}
         {/* akhir dari gambar dan nama */}{' '}
@@ -62,12 +66,12 @@ export const Nav = () => {
           </ul>{' '}
           {/* ikon */}{' '}
           <div className="hidden md:flex gap-2 md:gap-4">
-            <img src="/img/globe.png" alt="" className="object-fill hover:cursor-pointer w-6 h-6 lg:w-8 lg:h-8" />
-            <img src="/img/linkind.png" alt="" className="object-fill hover:cursor-pointer w-6 h-6 lg:w-8 lg:h-8" />
+            <img src={globe} alt="" className="object-fill hover:cursor-pointer w-6 h-6 lg:w-8 lg:h-8" />
+            <img src={linkidin} alt="" className="object-fill hover:cursor-pointer w-6 h-6 lg:w-8 lg:h-8" />
           </div>{' '}
         </div>{' '}
         <div className="flex sm:hidden justify-end items-center">
-          <img src="/img/humberger.png" alt="" className="object-fill hover:cursor-pointer w-8 h-8" onClick={toggleMenu} />
+          <img src={humberger} alt="" className="object-fill hover:cursor-pointer w-8 h-8" onClick={toggleMenu} />
         </div>{' '}
         {/* akhir ikon */}{' '}
       </nav>{' '}
