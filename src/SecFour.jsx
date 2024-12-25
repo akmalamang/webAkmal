@@ -56,7 +56,7 @@ export const SecFour = () => {
             href="https://www.youtube.com" // Ganti dengan URL yang sesuai
             className="flex items-center gap-2 bg-gradient-to-tr from-[#0B2447] to-[#1B58AD] px-6 py-2 rounded-full hover:bg-gray-800 transition-colors"
           >
-            <img src="/public/img/YouTube.png" alt="Youtube" className="w-6 h-6" />
+            <img src="./public/img/YouTube.png" alt="Youtube" className="w-6 h-6" />
             <span className="text-[15px]">Youtube</span>
           </a>
 
@@ -74,7 +74,7 @@ export const SecFour = () => {
         <div ref={sec3Top} className="relative">
           <div className="w-[324px] h-[339px]  md:w-[384px] md:h-[396px] bg-[#1B58AD] rounded-full absolute top-10 right-[50%] left-[50%] -translate-x-[50%] z-0"></div>
           <img
-            src="/public/img/new-profil-akmal 1.png" // Ganti dengan gambar profil yang sesuai
+            src="./public/img/new-profil-akmal 1.png" // Ganti dengan gambar profil yang sesuai
             alt="Profile"
             className="relative z-10 object-cover w-[257px] h-[387px] sm:w-[277px] sm:h-[422px]"
           />

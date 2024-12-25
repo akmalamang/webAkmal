@@ -51,13 +51,13 @@ export const Sec = () => {
         <p className="mt-6 text-md sm:text-lg text-[#B3B3B3] sm:w-[422px]">I am a freelance FrontEnd Web Developer, currently looking for work in the field of Web Development</p>
         <div className="flex gap-6 mt-8">
           <a href="">
-            <img src="/public/img/tweet.png" alt="" className="w-[30px] h-[30px]" />
+            <img src="./public/img/tweet.png" alt="" className="w-[30px] h-[30px]" />
           </a>
           <a href="">
-            <img src="/public/img/ig.png" alt="" className="w-[30px] h-[30px]" />
+            <img src="./public/img/ig.png" alt="" className="w-[30px] h-[30px]" />
           </a>
           <a href="">
-            <img src="/public/img/facebook.png" alt="" className="w-[30px] h-[30px]" />
+            <img src="./public/img/facebook.png" alt="" className="w-[30px] h-[30px]" />
           </a>
         </div>
       </section>
