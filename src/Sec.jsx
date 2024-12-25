@@ -3,6 +3,7 @@ import tweet from './assets/tweet.png';
 import intagram from './assets/ig.png';
 import facebook from './assets/facebook.png';
 import akmal from './assets/new-edit-akmal 1.png';
+import mask from './assets/Mask group.png';
 
 export const Sec = () => {
   const sec1Ref = useRef(null);
@@ -50,7 +51,7 @@ export const Sec = () => {
         <div className="w-[200px] sm:w-[300px] h-[3px] bg-[#A5D7E8] mt-5"></div>
         <div className="flex gap-4 items-center mt-4">
           <p className="text-[#B3B3B3] mt-0">Show More</p>
-          <img className="w-5 object-fill h-5" src="/public/img/Mask group.png" alt="" />
+          <img className="w-5 object-fill h-5" src={mask} alt="" />
         </div>
         <p className="mt-6 text-md sm:text-lg text-[#B3B3B3] sm:w-[422px]">I am a freelance FrontEnd Web Developer, currently looking for work in the field of Web Development</p>
         <div className="flex gap-6 mt-8">
