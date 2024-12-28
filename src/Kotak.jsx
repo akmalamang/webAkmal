@@ -43,7 +43,10 @@ export const Kotak = () => {
         </div>{' '}
         <div className="flex gap-2 justify-center self-center items-center bg-[#0B2447] px-6 py-1 shadow-md">
           <img src={linkeDin} alt="" className="w-[20px] sm:w-[35px]" />
-          <a href=""> Linkedin </a>{' '}
+          <a href="https://www.linkedin.com/in/akmal-maulana-0192481b0/" target="/">
+            {' '}
+            Linkedin{' '}
+          </a>{' '}
         </div>{' '}
         <div className="flex gap-2 justify-center self-center items-center bg-[#0B2447] px-6 py-1 shadow-md">
           <img src={meta} alt="" className="w-[20px] sm:w-[35px]" />

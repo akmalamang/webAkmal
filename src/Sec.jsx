@@ -55,13 +55,13 @@ export const Sec = () => {
         </div>
         <p className="mt-6 text-md sm:text-lg text-[#B3B3B3] sm:w-[422px]">I am a freelance FrontEnd Web Developer, currently looking for work in the field of Web Development</p>
         <div className="flex gap-6 mt-8">
-          <a href="">
+          <a href="https://x.com" target="/">
             <img src={tweet} alt="" className="w-[30px] h-[30px]" />
           </a>
-          <a href="">
+          <a href="https://www.instagram.com/akmlamang" target="/">
             <img src={intagram} alt="" className="w-[30px] h-[30px]" />
           </a>
-          <a href="">
+          <a href="https://web.facebook.com/AkmalMaulana" target="/">
             <img src={facebook} alt="" className="w-[30px] h-[30px]" />
           </a>
         </div>
