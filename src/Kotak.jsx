@@ -13,11 +13,10 @@ export const Kotak = () => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
             if (entry.target === sec3Top.current) {
-              sec3Top.current.classList.add('animate-fadeInTop', 'opacity-100');
-            }
-          } else {
-            if (entry.target === sec3Top.current) {
-              sec3Top.current.classList.remove('animate-fadeInTop', 'opacity-100');
+              // sec3Top.current.classList.add('animate-fadeInTop', 'opacity-100');
+              if (!sec3Top.current.classList.contains('animated')) {
+                sec3Top.current.classList.add('animate-fadeInTop', 'opacity-100', 'animated');
+              }
             }
           }
         });

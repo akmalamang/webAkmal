@@ -6,29 +6,29 @@ import akmal from './assets/new-edit-akmal 1.png';
 import mask from './assets/Mask group.png';
 
 export const Sec = () => {
-  const sec1Ref = useRef(null);
-  const sec2Ref = useRef(null);
+  const sec1Ref = useRef(null); // referensi untuk teks profil di kiri
+  const sec2Ref = useRef(null); // referensi untuk gambar di kanan
 
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
+          // Jika elemen terlihat di layar
           if (entry.isIntersecting) {
             if (entry.target === sec1Ref.current) {
-              sec1Ref.current.classList.add('animate-fadeInLeft', 'opacity-100');
+              // Jalankan animasi hanya jika belum pernah dilakukan
+              if (!sec1Ref.current.classList.contains('animated')) {
+                sec1Ref.current.classList.add('animate-fadeInLeft', 'opacity-100', 'animated');
+              }
             } else if (entry.target === sec2Ref.current) {
-              sec2Ref.current.classList.add('animate-fadeInRight', 'opacity-100');
-            }
-          } else {
-            if (entry.target === sec1Ref.current) {
-              sec1Ref.current.classList.remove('animate-fadeInLeft', 'opacity-100');
-            } else if (entry.target === sec2Ref.current) {
-              sec2Ref.current.classList.remove('animate-fadeInRight', 'opacity-100');
+              if (!sec2Ref.current.classList.contains('animated')) {
+                sec2Ref.current.classList.add('animate-fadeInRight', 'opacity-100', 'animated');
+              }
             }
           }
         });
       },
-      { threshold: 0.2 } // Detect when 20% of the element is visible
+      { threshold: 0.2 } // animasi aktif saat 20% elemen terlihat
     );
 
     if (sec1Ref.current) observer.observe(sec1Ref.current);

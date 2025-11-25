@@ -13,19 +13,18 @@ export const SecFour = () => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
             if (entry.target === sec1Ref.current) {
-              sec1Ref.current.classList.add('animate-fadeInLeft', 'opacity-100');
+              // sec1Ref.current.classList.add('animate-fadeInLeft', 'opacity-100');
+              if (!sec1Ref.current.classList.contains('animated')) {
+                sec1Ref.current.classList.add('animate-fadeInLeft', 'opacity-100', 'animated');
+              }
             } else if (entry.target === sec2Ref.current) {
-              sec2Ref.current.classList.add('animate-fadeInRight', 'opacity-100');
+              if (!sec2Ref.current.classList.contains('animated')) {
+                sec2Ref.current.classList.add('animate-fadeInRight', 'opacity-100', 'animated');
+              }
             } else if (entry.target === sec3Top.current) {
-              sec3Top.current.classList.add('animate-fadeInTop', 'opacity-100');
-            }
-          } else {
-            if (entry.target === sec1Ref.current) {
-              sec1Ref.current.classList.remove('animate-fadeInLeft', 'opacity-100');
-            } else if (entry.target === sec2Ref.current) {
-              sec2Ref.current.classList.remove('animate-fadeInRight', 'opacity-100');
-            } else if (entry.target === sec3Top.current) {
-              sec3Top.current.classList.remove('animate-fadeInTop', 'opacity-100');
+              if (!sec3Top.current.classList.contains('animated')) {
+                sec3Top.current.classList.add('animate-fadeInTop', 'opacity-100', 'animated');
+              }
             }
           }
         });
