@@ -4,6 +4,8 @@ import intagram from './assets/ig.png';
 import facebook from './assets/facebook.png';
 import akmal from './assets/new-edit-akmal 1.png';
 import mask from './assets/Mask group.png';
+import unduh from './assets/icon-download.png';
+import cv from '/cv-Akmal-Nov-27.pdf';
 
 export const Sec = () => {
   const sec1Ref = useRef(null); // referensi untuk teks profil di kiri
@@ -43,7 +45,7 @@ export const Sec = () => {
   return (
     <div id="home" className="mt-[50px] sm:mt-[100px] font-poppins flex flex-col md:flex-row items-center justify-between">
       {/* Section 1 */}
-      <section ref={sec1Ref} className="sec-1 flex flex-col ml-10 order-2 md:order-1 opacity-0 transition-opacity duration-500">
+      <section ref={sec1Ref} className="sec-1 relative flex flex-col ml-10 order-2 md:order-1 opacity-0 transition-opacity duration-500">
         <div>
           <h2 className="text-2xl sm:text-3xl md:text-6xl font-semibold text-[#C5C5C5]">I 'm</h2>
           <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold mt-4 text-white">Akmal Maulana</h1>
@@ -63,6 +65,15 @@ export const Sec = () => {
           </a>
           <a href="https://web.facebook.com/AkmalMaulana" target="/">
             <img src={facebook} alt="" className="w-[30px] h-[30px]" />
+          </a>
+        </div>
+
+        <div className="absolute bottom-0 left-[200px] max-[400px]:left-[190px] mt-10">
+          <a href={cv} download={'cv-Akmal-Nov-27.pdf'} target="_blank" rel="noreferrer">
+            <button className="px-2 py-1  bg-[#A5D7E8] rounded-md max-[400px]:text-sm hover:bg-[#8fb9c7] transition flex gap-2 items-center" rel="noreferrer">
+              <img src={unduh} alt="" className="w-[30px]" />
+              cv
+            </button>
           </a>
         </div>
       </section>
