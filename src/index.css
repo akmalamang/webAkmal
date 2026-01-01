@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@keyframes flowContainer {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Animasi bergerak halus kanan -> kiri */
+.animate-flowContainer {
+  display: flex;
+  animation: flowContainer 20s linear infinite;
+  width: calc(300px * 8 + 48px * 7); /* total lebar item + gap */
+}
+
+/* Untuk efek lebih smooth di hover bisa tambahkan */
+.animate-flowContainer:hover {
+  animation-play-state: paused; /* berhenti saat hover */
+}
