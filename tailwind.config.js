@@ -28,4 +28,5 @@ export default {
     },
   },
   plugins: [],
+  safelist: ['block', 'hidden'],
 };

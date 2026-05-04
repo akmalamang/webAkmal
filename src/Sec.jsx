@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import { useEffect, useRef } from 'react';
 import tweet from './assets/tweet.png';
 import intagram from './assets/ig.png';
 import facebook from './assets/facebook.png';
@@ -30,7 +30,7 @@ export const Sec = () => {
           }
         });
       },
-      { threshold: 0.2 } // animasi aktif saat 20% elemen terlihat
+      { threshold: 0.2 }, // animasi aktif saat 20% elemen terlihat
     );
 
     if (sec1Ref.current) observer.observe(sec1Ref.current);
@@ -55,7 +55,7 @@ export const Sec = () => {
           <p className="text-[#B3B3B3] mt-0">Show More</p>
           <img className="w-5 object-fill h-5" src={mask} alt="" />
         </div>
-        <p className="mt-6 text-md sm:text-lg text-[#B3B3B3] sm:w-[422px]">I am a freelance FrontEnd Web Developer, currently looking for work in the field of Web Development</p>
+        <p className="mt-6 text-md sm:text-lg text-[#B3B3B3] sm:w-[422px]">I am a freelance FullStack Developer, currently looking for work in the field of Web Development</p>
         <div className="flex gap-6 mt-8">
           <a href="https://x.com" target="/">
             <img src={tweet} alt="" className="w-[30px] h-[30px]" />

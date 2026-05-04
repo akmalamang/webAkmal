@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from 'react';
+import { useRef, useEffect } from 'react';
 import iWeb from './assets/i-web.png';
 import frontWeb from './assets/i-frontWeb.png';
 import mobileDev from './assets/i-mobileDev.png';
@@ -30,7 +30,7 @@ export const SecKotakThree = () => {
           }
         });
       },
-      { threshold: 0.2 } // Detect when 20% of the element is visible
+      { threshold: 0.2 }, // Detect when 20% of the element is visible
     );
 
     if (sec1Ref.current) observer.observe(sec1Ref.current);
