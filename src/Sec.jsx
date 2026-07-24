@@ -6,6 +6,7 @@ import akmal from './assets/new-edit-akmal 1.png';
 import mask from './assets/Mask group.png';
 import unduh from './assets/icon-download.png';
 import cv from '/cv-Akmal-Nov-27.pdf';
+import Tilt from 'react-parallax-tilt';
 
 export const Sec = () => {
   const sec1Ref = useRef(null); // referensi untuk teks profil di kiri
@@ -80,9 +81,11 @@ export const Sec = () => {
 
       {/* Section 2 */}
       <section ref={sec2Ref} className="sec-2 sm:mr-[50px] order-1 md:order-2 opacity-0 transition-opacity duration-500">
-        <div className="w-60 h-60 sm:w-[300px] sm:h-[300px] lg:w-[483px] lg:h-[462px] rounded-full  mx-auto  md:mx-0 bg-[#19376D] relative">
-          <img src={akmal} alt="" className=" object-cover object-center sm:mr-[100px] p-4 absolute bottom-2" />
-        </div>
+        <Tilt tiltMaxAngleX={20} tiltMaxAngleY={20} perspective={1200} transitionSpeed={1500} glareEnable={true} glareMaxOpacity={0.3} scale={1.05}>
+          <div className="w-60 h-60 sm:w-[300px] sm:h-[300px] lg:w-[483px] lg:h-[462px] rounded-full bg-[#19376D] relative">
+            <img src={akmal} alt="" className="object-cover object-center p-4 absolute bottom-2" />
+          </div>
+        </Tilt>
       </section>
     </div>
   );
