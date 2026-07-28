@@ -5,7 +5,7 @@ import facebook from './assets/facebook.png';
 import akmal from './assets/new-edit-akmal 1.png';
 import mask from './assets/Mask group.png';
 import unduh from './assets/icon-download.png';
-import cv from '/cv-Akmal-Nov-27.pdf';
+import cv from '/CV-Akmal_Maulana-Eng.pdf';
 import Tilt from 'react-parallax-tilt';
 
 export const Sec = () => {
@@ -70,7 +70,7 @@ export const Sec = () => {
         </div>
 
         <div className="absolute bottom-0 left-[200px] max-[400px]:left-[190px] mt-10">
-          <a href={cv} download={'cv-Akmal-Nov-27.pdf'} target="_blank" rel="noreferrer">
+          <a href={cv} download={'CV-Akmal_Maulana-Eng.pdf'} target="_blank" rel="noreferrer">
             <button className="px-2 py-1  bg-[#A5D7E8] rounded-md max-[400px]:text-sm hover:bg-[#8fb9c7] transition flex gap-2 items-center" rel="noreferrer">
               <img src={unduh} alt="" className="w-[30px]" />
               cv
