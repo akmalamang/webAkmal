@@ -26,7 +26,7 @@ export const SecTwo = () => {
           }
         });
       },
-      { threshold: 0.2 }
+      { threshold: 0.2 },
     );
 
     if (sec1Ref.current) observer.observe(sec1Ref.current);
@@ -88,7 +88,7 @@ export const SecTwo = () => {
         <ServiceCard img={uiUx} title="UI / UX Design" projects="10" visible={isUiUxVisible} onToggle={() => setIsUiUxVisible(!isUiUxVisible)} />
         <div className="w-full bg-[#B3B3B3] h-[2px] ml-4"></div>
 
-        <ServiceCard img={gambar1} title="Front End Develop" projects="12" visible={isFrontEndVisible} onToggle={() => setIsFrontEndVisible(!isFrontEndVisible)} />
+        <ServiceCard img={gambar1} title="Web Develop" projects="12" visible={isFrontEndVisible} onToggle={() => setIsFrontEndVisible(!isFrontEndVisible)} />
         <div className="w-full bg-[#B3B3B3] h-[2px] ml-4"></div>
 
         <ServiceCard img={gambar2} title="Mobile App Develop" projects="5" visible={isMobileAppVisible} onToggle={() => setIsMobileAppVisible(!isMobileAppVisible)} />

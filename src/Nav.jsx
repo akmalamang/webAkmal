@@ -109,7 +109,7 @@ export const Nav = () => {
         {/* Desktop Right Icons */}
         <div className="hidden sm:flex items-center gap-3">
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/akmalmaulana26/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn profile"
@@ -182,7 +182,7 @@ export const Nav = () => {
           </ul>
 
           <div className="flex items-center gap-3">
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile" className="w-10 h-10 rounded-full border border-white/15 bg-white/5 flex items-center justify-center">
+            <a href="https://www.linkedin.com/in/akmalmaulana26/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile" className="w-10 h-10 rounded-full border border-white/15 bg-white/5 flex items-center justify-center">
               <img src={linkidin} alt="" className="w-4 h-4" aria-hidden="true" />
             </a>
             <button aria-label="Ganti bahasa" className="w-10 h-10 rounded-full border border-white/15 bg-white/5 flex items-center justify-center">

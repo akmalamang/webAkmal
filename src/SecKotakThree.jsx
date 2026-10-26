@@ -53,7 +53,7 @@ export const SecKotakThree = () => {
         </div>
         <div ref={sec3Top} className="flex flex-col gap-4 text-[#ffffff] bg-[#19376D] lg:w-[369px] lg:h-[409px] md:w-[269px] md:h-[309px]  shadow-md shadow-[#A5D7E8]">
           <img src={frontWeb} alt="" className="w-[45px] h-[45px] ml-5 mt-5" />
-          <h2 className="font-bold  ml-5 text-[24px]">Front End Dev</h2>
+          <h2 className="font-bold  ml-5 text-[24px]">Web Develop</h2>
           <p className="lg:w-[280px] text-[#DBDBDB] ml-5 text-[17px] mb-4 min-[678px]:mb-0 min-[678px]:text-[20px]">Creating responsive, beautiful, and accessible web experiences.</p>
         </div>
         <div ref={sec2Ref} className="flex flex-col gap-4 text-[#ffffff] bg-[#19376D] lg:w-[369px] lg:h-[409px] md:w-[269px] md:h-[309px]  shadow-md shadow-[#A5D7E8] ">
